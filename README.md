@@ -311,3 +311,8 @@
           <!--表单中的记住我的checkbox名称-->
           <property name="rememberMeParam" value="rememberMe" />
       </bean>
+      
+ ###联调错误信息
+ 405 method not allowed  get
+@PostMapping改成  @RequestMapping("/login")
+ 
